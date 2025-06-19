@@ -6,3 +6,8 @@ curl --location 'https://emetbrown.netlify.app/.netlify/functions/api/identifyCo
     "phoneNumber": "233456",
     "email": "lorraine@hillvalley.edu"
 }'
+
+# Main controller (main): 
+src/api/controller/user/UserController
+# Main Model (main): 
+src/api/models/User.js
