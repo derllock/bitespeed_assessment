@@ -69,7 +69,7 @@ app.get("/", (req, res) => {
     message: "Bitespeed Assessment API Server",
     status: "Running",
     endpoints: {
-      users: "/api/user/"
+      users: "/api/user/identifyContact"
     }
   });
 });

@@ -90,7 +90,7 @@ async function generateContactResponse(primaryContactId) {
 
   return {
     contact: {
-      primaryContatctId: hierarchy.primary.id,
+      primaryContactId: hierarchy.primary.id,
       emails,
       phoneNumbers,
       secondaryContactIds
@@ -122,7 +122,7 @@ module.exports = {
 
         return res.status(200).json({
           contact: {
-            primaryContatctId: newContact.id,
+            primaryContactId: newContact.id,
             emails: [email].filter(Boolean),
             phoneNumbers: [phoneNumber].filter(Boolean),
             secondaryContactIds: []

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./src/bin/www",
-    "start": "node ./src/bin/www"
+    "start": "node ./src/bin/www",
+    "build": "netlify deploy --prod"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -13,6 +14,9 @@
     "dotenv": "^16.5.0",
     "express": "^4.17.1",
     "mongoose": "^8.16.0",
-    "nodemon": "^2.0.20"
+    "netlify-cli": "^12.14.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.20",
+    "serverless-http": "^2.7.0"
   }
 }

@@ -1,5 +1,5 @@
 require('dotenv').config();
 
 module.exports = {
-  dbUrl: process.env.DB_URL || "",
+  dbUrl: "mongodb+srv://bitespeed:emettBrown@assessment.3lfvocg.mongodb.net/bitespeed"//process.env.DB_URL || "",
 };
